@@ -1,0 +1,19 @@
+<div class="banner">
+  <h1>My Portfolio</h1>
+</div>
+
+<div class="ShowPortfolio">
+  <div class="portfolio" *ngFor="let item of list">
+    <div class="portfolio-img">
+      <img src="/assets/images/{{ item.img }}" alt="portfolio">
+    </div>
+    <div>
+      <p class="portfolio-title">{{ item.title }}</p>
+      <hr width="50%" class="portfolio-divider">
+      <p class="portfolio-content">{{ item.content }}</p>
+      <div class="portfolio-url">
+        <a href="{{ item.url }}" target="_BLANK">作品網址</a>
+      </div>      
+    </div>
+  </div>
+</div>
