@@ -1,0 +1,85 @@
+.banner{
+    text-align: center;
+    padding: 3rem 4rem;
+    line-height: 150px;
+}
+
+.ShowPortfolio{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding: 0% 1%;
+    justify-content: center;
+}
+
+.portfolio{
+    width: calc(32% - 25px);
+    border: .13em solid #c7c7c7;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
+    text-align: center;
+    background: #ffffff;
+    margin: 1.3% .4%;
+    padding: 1%;
+    height: -webkit-fill-available;
+}
+
+.portfolio:hover{
+    transform:scale(1.05,1.05);
+    transition:transform 0.25s ease;
+}
+
+.portfolio-img{
+    width: auto;
+    /* height: 38%; */
+    min-height: 50%;
+}
+
+.portfolio img{
+    width: 98%;
+    height: auto;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.portfolio-title{
+    font-size: 1.17em;
+    color: #714340;
+}
+
+.portfolio-divider{
+    border-color: #714340;
+}
+
+.portfolio-content{
+    font-size: .89em;
+    color: #714340;
+    padding: 0% 4%;
+    height: 100px;
+}
+
+.portfolio-url{
+    background: #714340;
+    margin: 3% 0%;
+    line-height: 2.4em;
+    border-radius: 5px;
+}
+
+.portfolio a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+@media (max-width:650px), print{
+    .portfolio{
+        width: calc(50% - 25px);
+    }
+}
+
+@media (max-width:450px), print{
+    .portfolio{
+        width: calc(80% - 25px);
+    }
+}
