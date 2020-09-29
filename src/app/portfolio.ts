@@ -10,5 +10,12 @@ export const PortfolioList = [
 		'content':'使用 Laravel 製作會員系統',
 		'img': 'portfolio2.png',
 		'url': 'https://sp3580.github.io/member/'
+	},
+	{
+		'title': '簡易留言板',
+		'content':'使用 Angular 製作簡易留言板',
+		'img': 'portfolio3.png',
+		'url': 'https://sp3580.github.io/MyMessageBoard/'
 	}
+	
 ]
